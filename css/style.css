@@ -36,3 +36,6 @@ footer{
     display: inline-block;
     font-size: 16px;
     }
+
+   body{background: linear-gradient(skyblue,brown);
+        min-height: 100vh;}
