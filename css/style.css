@@ -8,7 +8,7 @@
 }
 .header {
     padding: 20px;
-    background:#4734f04b ;
+    background-color:#4734f04b ;
     color: black;
     font-size: 20px;
     width: 98%;
@@ -16,7 +16,7 @@
     left: 0;
 }
 footer{
-    background:#4734f04b; 
+    background-color:#4734f04b; 
     padding: 30px;  
   }
   .footer-icon {
@@ -41,5 +41,5 @@ footer{
     font-size: 16px;
     }
 
-   body{background: linear-gradient(skyblue,brown);
+   body{background: linear-gradient(skyblue,brown,white);
         min-height: 100vh;}
