@@ -1,0 +1,144 @@
+
+body{background: linear-gradient(skyblue,brown);
+    min-height: 100vh;}
+
+h1{color: brown;
+text-align: center;
+text-decoration: underline;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+}
+
+h1:hover{color:blue;}
+
+.btn-back{width: 100px;
+text-align: center;
+font-size: larger;
+height: 50px;
+border-radius: 10px;
+background: linear-gradient(skyblue,brown);
+position: absolute;
+top: 0;
+left: 0;}
+
+.btn-submit{width: 100px;
+    text-align: center;
+    font-size: larger;
+    height: 50px;
+    border-radius: 10px;
+background: linear-gradient(skyblue,brown);
+align-self: center;
+}
+    label{font-size: larger;}
+form{text-align: center;
+}
+    input,textarea{ padding: 20px;
+        border-radius: 25px;
+        border: 0.5px solid #ccc;
+        margin-bottom: 20px;
+        font-size: 19px;}
+        form{  display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;}
+
+
+            /* Social icons */
+            .wrapper {
+                position: absolute;
+                top: 500px; 
+                left: 50px;
+                transform: translate(-50%, -50%);
+                width: 0px;
+                translate: -50px -120px;
+          
+              }
+              
+              .wrapper ul {
+                list-style: none;
+              
+              }
+              
+              .wrapper ul li {
+                width: 75px;
+                height: 75px;
+                line-height: 80px;
+                text-align: center;
+                cursor: pointer;
+                border-radius: 40px;
+                float: left;
+                transition: all 0.5s ease;
+          
+              }
+              
+    
+              .wrapper ul li .fa-brands {
+                background: linear-gradient(skyblue,brown);
+                transition: all 0.5s ease;
+                border-radius: 50%;
+                
+               
+              }
+                              
+              .wrapper ul li:hover.github {
+                border: 5px solid green;
+                box-shadow: 0 0 15px green;
+                transition: all 0.5s ease;
+              }
+              
+              .wrapper ul li:hover .fa-github {
+                color: green;
+                text-shadow: 0 0 15px green;
+                transition: all 0.5s ease;
+              }
+
+              .wrapper ul li:hover.facebook {
+                border: 5px solid #3b5998;
+                box-shadow: 0 0 15px #3b5998;
+                transition: all 0.5s ease;
+              }
+              
+              .wrapper ul li:hover .fa-facebook {
+                color: #3b5998;
+                text-shadow: 0 0 15px #3b5998;
+                transition: all 0.5s ease;
+              }
+              
+             
+              .wrapper ul li:hover.twitter {
+                border: 5px solid #00aced;
+                box-shadow: 0 0 15px #00aced;
+                transition: all 0.5s ease;
+              }
+              
+              .wrapper ul li:hover .fa-twitter {
+                color: #00aced;
+                text-shadow: 0 0 15px #00aced;
+                transition: all 0.5s ease;
+              }
+              
+        
+              .wrapper ul li:hover.instagram {
+                border: 5px solid #bc2a8d;
+                box-shadow: 0 0 15px #bc2a8d;
+                transition: all 0.5s ease;
+              }
+              
+              .wrapper ul li:hover .fa-instagram {
+                color: #bc2a8d;
+                text-shadow: 0 0 15px #bc2a8d;
+                transition: all 0.5s ease;
+              }
+              
+          
+              .wrapper ul li:hover.youtube {
+                border: 5px solid red;
+                box-shadow: 0 0 15px red;
+                transition: all 0.5s ease;
+              }
+              
+              .wrapper ul li:hover .fa-youtube {
+                color: red;
+                text-shadow: 0 0 15px red;
+                transition: all 0.5s ease;
+              }
